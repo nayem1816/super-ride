@@ -1,0 +1,17 @@
+[{
+    "id": 1,
+    "RideName": "BIKE",
+    "RideImg": "https://i.imgur.com/j7mFD8D.png"
+  }, {
+    "id": 2,
+    "RideName": "CAR",
+    "RideImg": "https://i.imgur.com/pBpw9n6.png"
+  }, {
+    "id": 3,
+    "RideName": "BUS",
+    "RideImg": "https://i.imgur.com/y0jJ6e5.png"
+  }, {
+    "id": 4,
+    "RideName": "TRAIN",
+    "RideImg": "https://i.imgur.com/uBw8B7s.png"
+  }]
