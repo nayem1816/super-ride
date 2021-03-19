@@ -1,0 +1,33 @@
+h4 {
+    overflow: hidden;
+    text-align: center;
+}
+h4:before,
+h4:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.google-btn-style{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.fb-Icon{
+    float: left;
+    /* color: #48A852; */
+}

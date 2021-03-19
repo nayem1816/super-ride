@@ -12,7 +12,7 @@ const Destination = () => {
     <div className="mt-5 container">
       <div className="row destination-part d-flex justify-content-center">
         <div className="col-md-4 destination-ticket mb-5">
-          <h2 className="text-center mb-5">Ticket Price</h2>
+          {/* <h2 className="text-center mb-5">Ticket Price</h2> */}
           {dataId ? <TicketPart dataId={dataId}></TicketPart> : <div></div>}
         </div>
         <div className="col-md-7">

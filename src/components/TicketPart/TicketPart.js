@@ -5,8 +5,8 @@ import ridesData from '../../RideData/RideData.json';
 
 const TicketPart = (props) => {
     const dataId = props.dataId
-    const newRideData = ridesData.find(data => data.id == dataId)
-    console.log(newRideData);
+    // const newRideData = ridesData.find(data => data.id === dataId)
+    const newRideData = ridesData[dataId-1];
     const {RideImg, RideName, capacity, ticketPrice} = newRideData;
   return (
     <div className="ticket-part">

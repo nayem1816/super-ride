@@ -40,7 +40,7 @@ const Header = () => {
                 <Link to="/contact" className="nav-link" href="#">
                   Contact
                 </Link>
-                <button className="btn btn-primary">Login</button>
+                <Link to="/login"><button className="btn login-btn-style">Login</button></Link>
               </div>
             </div>
           </nav>
