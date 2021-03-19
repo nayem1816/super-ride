@@ -1,6 +1,5 @@
 import React from "react";
 import bgImg from "../../images/Bg.png";
-import Header from "../Header/Header";
 import "./Home.css";
 import ridesData from "../../RideData/RideData.json";
 import { useEffect } from "react";
@@ -14,11 +13,8 @@ const Home = () => {
   }, []);
   return (
     <div className="home-style" style={{ backgroundImage: `url(${bgImg})` }}>
-      <div className="">
-        <Header></Header>
-      </div>
-      <div className="container">
-        <div className="row d-flex align-items-center">
+      <div className="container ride-details">
+        <div className="row d-flex align-items-center card-body-style">
           {rideData.map((allRideData) => (
             <RideDetails
               allRideData={allRideData}

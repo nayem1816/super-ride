@@ -1,17 +1,25 @@
 [{
     "id": 1,
-    "RideName": "BIKE",
-    "RideImg": "https://i.imgur.com/j7mFD8D.png"
+    "RideName": "Bike",
+    "RideImg": "https://i.imgur.com/j7mFD8D.png",
+    "capacity": 1,
+    "ticketPrice": 55
   }, {
     "id": 2,
-    "RideName": "CAR",
-    "RideImg": "https://i.imgur.com/pBpw9n6.png"
+    "RideName": "Car",
+    "RideImg": "https://i.imgur.com/pBpw9n6.png",
+    "capacity": 4,
+    "ticketPrice": 67
   }, {
     "id": 3,
-    "RideName": "BUS",
-    "RideImg": "https://i.imgur.com/y0jJ6e5.png"
+    "RideName": "Bus",
+    "RideImg": "https://i.imgur.com/y0jJ6e5.png",
+    "capacity": 2,
+    "ticketPrice": 50
   }, {
     "id": 4,
-    "RideName": "TRAIN",
-    "RideImg": "https://i.imgur.com/uBw8B7s.png"
+    "RideName": "Train",
+    "RideImg": "https://i.imgur.com/uBw8B7s.png",
+    "capacity": 5,
+    "ticketPrice": 80
   }]

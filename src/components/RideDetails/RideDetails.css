@@ -1,3 +1,14 @@
+
 .ride-option-style{
-    
+    text-align: center;
+}
+.ride-option-style img{
+    width: 150px;
+}
+.card-style:hover{
+    text-decoration: none;
+}
+.card-style{
+    border-radius: 10px;
+    color:black;
 }

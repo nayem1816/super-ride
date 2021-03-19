@@ -1,0 +1,21 @@
+.ride-img{
+    width: 50px;
+    height:40px;
+}
+.ticket-part{
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ticket-part-items{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.icon-capacity{
+    width: 30px;
+    height: 25px;
+    margin-bottom: 5px;
+}
