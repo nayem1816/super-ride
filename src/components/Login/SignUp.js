@@ -50,7 +50,6 @@ const SignUp = () => {
           setUser(newUserInfo);
           const { displayName, email } = userCredential.user;
           const loggedInUser = { name: displayName, email };
-          console.log(loggedInUser);
         })
         .catch((error) => {
           const newUserInfo = { ...user };
@@ -70,7 +69,7 @@ const SignUp = () => {
         displayName: name,
       })
       .then(() => {
-        console.log("Update Successfully");
+
       })
       .catch((error) => {
         console.log(error);

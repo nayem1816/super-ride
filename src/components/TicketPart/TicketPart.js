@@ -2,6 +2,8 @@ import React from "react";
 import iconCapacity from "../../images/peopleicon.png";
 import "./TicketPart.css";
 import ridesData from '../../RideData/RideData.json';
+import { userContext } from "../../App";
+import { useContext } from "react";
 
 const TicketPart = (props) => {
     const dataId = props.dataId
