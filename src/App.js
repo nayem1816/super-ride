@@ -4,18 +4,18 @@ import NotFound from "./components/NotFound/NotFound";
 import Home from "./components/Home/Home";
 import Destination from "./components/Destination/Destination";
 import Header from "./components/Header/Header";
-import Search from "./components/Search/Search";
-import TicketPart from "./components/TicketPart/TicketPart";
 import { createContext, useState } from "react";
 import Login from "./components/Login/Login";
 import SignUp from "./components/Login/SignUp";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
-const userContext = createContext({});
+export const userContext = createContext({});
 
 function App() {
-  const [loggedInUser, setLoggedInUser] = useState();
+  const [loggedInUser, setLoggedInUser] = useState({});
   return (
     <userContext.Provider value={[loggedInUser, setLoggedInUser]}>
+      <p>Name: {loggedInUser.name}</p>
       <Router>
         <div className="">
           <Header></Header>
@@ -26,18 +26,18 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/destination/:dataId">
-              <Destination></Destination>
-            </Route>
-            <Route path="/destination">
-              <Destination></Destination>
-            </Route>
             <Route path="/login">
               <Login></Login>
             </Route>
             <Route path="/signUp">
               <SignUp></SignUp>
             </Route>
+            <PrivateRoute path="/destination/:dataId">
+              <Destination></Destination>
+            </PrivateRoute>
+            <PrivateRoute path="/destination">
+              <Destination></Destination>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
