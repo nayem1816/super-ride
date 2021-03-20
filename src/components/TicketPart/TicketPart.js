@@ -4,6 +4,7 @@ import "./TicketPart.css";
 import ridesData from '../../RideData/RideData.json';
 import { userContext } from "../../App";
 import { useContext } from "react";
+import { dataContext } from "../Home/Home";
 
 const TicketPart = (props) => {
     const dataId = props.dataId
