@@ -9,6 +9,8 @@ import Login from "./components/Login/Login";
 import SignUp from "./components/Login/SignUp";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Search from "./components/Search/Search";
+import Blog from "./components/Blog/Blog";
+import Contact from "./components/Contact/Contact";
 
 export const userContext = createContext({});
 
@@ -41,6 +43,12 @@ function App() {
             <PrivateRoute path="/destination">
               <Destination></Destination>
             </PrivateRoute>
+            <PrivateRoute path="/blog">
+              <Blog></Blog>
+            </PrivateRoute>
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

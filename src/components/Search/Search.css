@@ -1,0 +1,21 @@
+.full-search-form{
+    background-color:#EFEFEF;
+    padding: 15px;
+    border-radius:10px;
+}
+.from-style, .to-style{
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.from-style:focus ,.to-style:focus{
+    outline: none;
+}
+.search-btn{
+    background-color:#F47040 !important;
+    width: 100%;
+}
