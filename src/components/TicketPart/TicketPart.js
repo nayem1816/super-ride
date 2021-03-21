@@ -2,14 +2,11 @@ import React from "react";
 import iconCapacity from "../../images/peopleicon.png";
 import "./TicketPart.css";
 import ridesData from "../../RideData/RideData.json";
-import { userContext } from "../../App";
-import { useContext } from "react";
-import { dataContext } from "../Home/Home";
 
 const TicketPart = (props) => {
   const dataId = props.dataId;
   const getValue = props.getValue;
-  console.log(getValue);
+  // console.log(getValue);
   // const newRideData = ridesData.find(data => data.id === dataId)
   const newRideData = ridesData[dataId - 1];
   const { RideImg, RideName, capacity, ticketPrice } = newRideData;

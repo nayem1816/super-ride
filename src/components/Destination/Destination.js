@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Destination.css";
-import mapImg from "../../images/Map.png";
-import ridesData from "../../RideData/RideData.json";
 import TicketPart from "../TicketPart/TicketPart";
 import GoogleMap from "../GoogleMap/GoogleMap";
 import { useForm } from "react-hook-form";
+import Search from "../Search/Search";
 
 const Destination = () => {
   const { idData } = useParams();

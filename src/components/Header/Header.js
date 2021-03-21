@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { userContext } from "../../App";
 import "./Header.css";
+import '../../../node_modules/bootstrap/dist/js/bootstrap.min'
 
 const Header = () => {
   const [loggedInUser, setLoggedInUser] = useContext(userContext);
