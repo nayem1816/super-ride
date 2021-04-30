@@ -14,6 +14,6 @@
 * Google Map 
 * Bootstrap, etc.
 
-# Using api fake data
+# Using api 
+* fake data
 
-# using google map embed code.
