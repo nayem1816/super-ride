@@ -8,6 +8,6 @@
     *bootstrap
     *react hooks and others..
 
-# Using api fake data;
+# Using api fake data
 
 # using google map embed code.
